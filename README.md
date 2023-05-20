@@ -2,7 +2,9 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 This repository provides code to replicate the feature selection
-workflow published [here](). The analysis was created using `R 4.2.1`.
+workflow published
+[here](https://residualmetrics.com/index.php/predictive-analytics/an-empirical-map-of-feature-selection-algorithms).
+The analysis was created using `R 4.2.1`.
 
 ``` r
 # Data handling
@@ -98,8 +100,10 @@ edge_df <- calculate_edges(node_df)
 
 The below plot shows the similarity of the algorithms, as well as
 out-of-bootstrap relative performance and diversity of selected
-information. Refer to the [article]() for a description. The plot uses
-`ggnetwork` and `igraph` to generate a graph layout.
+information. Refer to the
+[article](https://residualmetrics.com/index.php/predictive-analytics/an-empirical-map-of-feature-selection-algorithms)
+for a description. The plot uses `ggnetwork` and `igraph` to generate a
+graph layout.
 
 ``` r
 edge_df %>% 
